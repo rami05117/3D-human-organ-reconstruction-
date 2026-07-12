@@ -1,0 +1,22 @@
+tensorflow==2.16.1
+PyQt5
+nibabel  
+matplotlib  
+opencv-python
+pydicom 
+vedo   
+SimpleITK   
+scipy  
+tqdm 
+numpy<2
+scikit-image 
+medpy
+vtk  
+dicom2nifti   
+nnunetv2
+monai
+
+torch
+# for torch with cuda
+# pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+# 2.4 GB

@@ -1,0 +1,32 @@
+# Patient data and predictions (large, sensitive, and/or regenerable)
+patients/
+predicted/
+predicted_la/
+predicted_spleen/
+
+# Trained model weights (too large for GitHub, distribute separately)
+Models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc medical image / cache formats
+*.nii
+*.nii.gz
+*.dcm
