@@ -33,7 +33,11 @@ pip install -r requirements.txt
 
 ## Data & model weights
 
-The `patients/`, `Models/`, and `predicted*/` folders are excluded from version control (large binary files / patient data). To run inference:
+The `patients/`, `Models/`, and `predicted*/` folders are excluded from version control (large binary files / patient data).
+
+The CT volumes were gathered from free, publicly available imaging benchmarks/datasets rather than a single source. Manual annotation (ground-truth segmentation masks) was performed by hand for the gathered cases to build the training/evaluation set used in this project.
+
+To run inference:
 
 1. Place input CT scans (`.nii.gz`) in `patients/`.
 2. Place trained model weights in `Models/`:
